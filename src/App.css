@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-size: 16px;
+}
+
+#root {
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.inputphone-left {
+    display: flex;
+    align-items: center;
+}
+
+.inputphone-left span {
+    margin-right: 3px;
+}
+
+.inp-code {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.inp-code button {
+    height: 20px;
+    padding-left: 20px;
+    color: #999;
+    border: none;
+    background-color: #ffffff;
+    border-left: 1px solid #999;  /* no */
+    position: absolute;
+    right: 0px;
+}
+
+.btn-login {
+    border-radius: 20px !important;
+    margin: 20px 0px 10px 0px;
+}
+
+.login-register {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-register a {
+    color: #999;
+}
+
+.login-register a:nth-of-type(2) {
+    color: #551A8B;
+}
+
+.login-mode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    color: #999;
+}
+
+.login-mode div {
+    width: 100px;
+    height: 1px;
+    background-color: #999;
+}
+
+.login-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.login-icon i{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.login-icon i:nth-of-type(1) {
+    background-color: #B0B2B3;
+}
+
+.login-icon i:nth-of-type(2) {
+    margin: 0px 20px;
+    color: #00C800;
+    background-color: #7FFF7F;
+}
+
+.login-icon i:nth-of-type(3) {
+    color: #4CAFE9;
+    background-color: #D1E2EE;
+}
+
+.login-footer {
+    margin-top: 70px;
+    text-align: center;
+}
